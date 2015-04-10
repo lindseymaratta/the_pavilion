@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/overrides.css" />
+
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+  <!--Start header-->
+    <header class="row">
+      <div class="small-12 medium-5 columns logo">
+        <img src="img/pavilion_logo.png">
+      </div>
+      <nav class="small-12 medium-7 columns global">
+        <div class="row">
+          <p>Hours TEST go here
+          </p>
+          <i class="social">FB</i>
+          <i class="social">INS</i>
+        </div>
+        <div class="row">
+          <ul class="nav-links">
+            <li>Find Us</li>
+            <li>Events</li>
+            <li>Food -</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  <!--End header-->
+
+  <!--Start slider-->
+
+  <!--End slider-->
+
+
+  <!--Start body-->
+  <!--Start events-->
+    <div class="row">
+      <div class="small-12 medium-8 columns">
+        <section class="border upcoming">
+          <h1>Upcoming Events</h1>
+          <h2>Event 1</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita mollitia excepturi laudantium, similique officia, cumque sapiente. Placeat et delectus quos, inventore non obcaecati libero, corrupti, similique soluta rem maxime voluptatibus?</p>
+          <h2>Event 2</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita mollitia excepturi laudantium, similique officia, cumque sapiente. </p>
+          <h2>Event 3</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita mollitia excepturi laudantium, similique officia, cumque sapiente. Placeat et delectus quos, inventore non obcaecati libero, corrupti</p>
+        </section>
+      </div>
+      <!--end Events-->
+
+      <!--Start weather-->
+      <div class="small-12 medium-4 columns">
+        <div class="row">
+          <div class="small-12 columns">
+            <section class="border weather">
+            <h1>Weather</h1>
+            <div class="small-4 columns">
+            <p>A</p>
+            <p>A</p>
+            </div>
+            <div class="small-4 columns">
+            <p>B</p>
+            <p>B</p>
+            </div>
+            <div class="small-4 columns">
+            <p>C</p>
+            <p>C</p>
+            </div>
+            </section>
+          </div>
+        </div>
+
+      <!--End Weather-->
+      <!--Star Booking-->
+      <div class="row">
+        <div class="small-12 columns">
+          <section class="border booking">
+            <h1>Available for Private Events</h1>
+            <p>Host your next party or private function at everyone's favorite waterfront venue. Call or Email Us for details.</p>
+          </section>
+        </div>
+      </div>
+    </div>
+     <!--End Booking-->
+
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+    <section class="instafeed border">
+    <h1>Tag #PavBeach on Instagram to appear Here</h1>
+      <div class="instagram">
+      <script type="text/javascript" src="js/instafeed.min.js"></script>
+      </div>
+    </section>
+    </div>
+    </div>
+
+  <!--End body-->
+    
+  <!--Start footer-->
+    <footer class="row">
+
+      <p>Visit our sister properties</p>
+      <a href=""><img src="" alt="front row"></a>
+      <a href=""><img src="" alt="sunset ribs"></a>
+    </footer>
+
+  <!--End footer-->  
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/instagram.js"></script>
+
+    <!--<script>
+jQuery(function($) {
+  $('.instagram').on('willLoadInstagram', function(event, options) {
+    console.log(options);
+  });
+  $('.instagram').on('didLoadInstagram', function(event, response) {
+    console.log(response);
+  });
+  $('.instagram').instagram({
+    hash: 'pavbeach',
+    clientId: 'c2974fae9cfa40cbbe4828774574bdc1'
+  });
+});
+</script>
+-->
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'awesome',
+        clientId: 'c2974fae9cfa40cbbe4828774574bdc1'
+    });
+    feed.run();
+</script>
+<script src="js/foundation.min.js"></script>
+ <script>
+      $(document).foundation();
+</script>   
+  </body>
+</html>
