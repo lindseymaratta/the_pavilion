@@ -6,7 +6,7 @@
     <title>The Pavilon - Beach Bar, Old Lyme CT</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/overrides.css" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -17,20 +17,20 @@
         <img src="img/pavilion_logo.png">
       </div>
       <nav class="small-12 medium-7 columns global">
-        <div class="row">
-          <div class="top-nav small-12 columns">
-            <ul class="hours small-10 columns">
-                <li>Sunday - Thursday 10am - 7pm</li>
-                <li>Friday - Saturday 10am - 2am</li>
+        <div class="row top-nav">
+          <div class="small-centered small-12 columns">
+            <ul class="hours small-7 columns">
+                <li>Sun - Thur: 10am - 7pm</li>
+                <li>Fri - Sat: 10am - 2am</li>
               </ul>
-            <ul class="social small-2 columns">
-                <li><i class="fa fa-instagram fa-5x"></i></li>
-                <li><i class="fa fa-facebook-square fa-5x"></i></li>
+            <ul class="social small-5 columns">
+                <li class="insta-icon"><i class="fa fa-instagram fa-5x"></i></li>
+                <li class="facebook-icon"><i class="fa fa-facebook-square fa-5x"></i></li>
               </ul>
           </div>
         </div>
         <div class="row">
-          <ul class="nav-links">
+          <ul class="nav-links small-centered small-12 columns">
             <li>Find Us</li>
             <li>Events</li>
             <li>Food</li>
@@ -41,14 +41,15 @@
   <!--End header-->
 
   <!--Start slider-->
-    <div class="row">
+    <section class="row">
       <div class="small-12 columns">
-        <section class="border slider">
+        <div class="border slider">
           <h1>Slider goes here</h1>
           <h2>some text</h2>
           <p>some text></p>
-        </section>
+        </div>
       </div>
+    </section>
   <!--End slider-->
 
 
@@ -106,14 +107,14 @@
   </div>
   <div class="row">
     <div class="small-12 columns">
-    <section class="instafeed border">
-    <h1>Tag #PavBeach on Instagram to appear Here</h1>
-      <div class="instagram">
-      <script type="text/javascript" src="js/instafeed.min.js"></script>
-      </div>
-    </section>
+      <section class="instagram tag border">
+        <h1>Tag #PavBeach on Instagram to appear Here</h1>
+        
+          <img />
+       
+      </section>
     </div>
-    </div>
+  </div>
 
   <!--End body-->
     
@@ -128,10 +129,15 @@
     </footer>
 
   <!--End footer-->  
-
+<script src="js/vendor/jquery.js"></script>
 <script src="js/foundation.min.js"></script>
+<script src="js/instagram.js"></script>
+<script src="js/instagram-feed.js"></script>
  <script>
-      $(document).foundation();
-</script>   
+  $(document).foundation();
+</script>  
+<script>
+
+</script> 
   </body>
 </html>
