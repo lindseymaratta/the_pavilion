@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>The Pavilon - Beach Bar, Old Lyme CT</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/overrides.css" />
-
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
@@ -18,16 +18,22 @@
       </div>
       <nav class="small-12 medium-7 columns global">
         <div class="row">
-          <p>Hours TEST go here
-          </p>
-          <i class="social">FB</i>
-          <i class="social">INS</i>
+          <div class="top-nav small-12 columns">
+            <ul class="hours small-10 columns">
+                <li>Sunday - Thursday 10am - 7pm</li>
+                <li>Friday - Saturday 10am - 2am</li>
+              </ul>
+            <ul class="social small-2 columns">
+                <li><i class="fa fa-instagram fa-5x"></i></li>
+                <li><i class="fa fa-facebook-square fa-5x"></i></li>
+              </ul>
+          </div>
         </div>
         <div class="row">
           <ul class="nav-links">
             <li>Find Us</li>
             <li>Events</li>
-            <li>Food -</li>
+            <li>Food</li>
           </ul>
         </div>
       </nav>
@@ -35,7 +41,14 @@
   <!--End header-->
 
   <!--Start slider-->
-
+    <div class="row">
+      <div class="small-12 columns">
+        <section class="border slider">
+          <h1>Slider goes here</h1>
+          <h2>some text</h2>
+          <p>some text></p>
+        </section>
+      </div>
   <!--End slider-->
 
 
@@ -105,42 +118,17 @@
   <!--End body-->
     
   <!--Start footer-->
-    <footer class="row">
 
-      <p>Visit our sister properties</p>
-      <a href=""><img src="" alt="front row"></a>
-      <a href=""><img src="" alt="sunset ribs"></a>
+    <footer class="foot">
+      <div class="row">
+        <h2>Visit our sister properties</h2>
+        <a href=""><img src="" alt="front row"></a>
+        <a href=""><img src="" alt="sunset ribs"></a>
+      </div>
     </footer>
 
   <!--End footer-->  
 
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/instagram.js"></script>
-
-    <!--<script>
-jQuery(function($) {
-  $('.instagram').on('willLoadInstagram', function(event, options) {
-    console.log(options);
-  });
-  $('.instagram').on('didLoadInstagram', function(event, response) {
-    console.log(response);
-  });
-  $('.instagram').instagram({
-    hash: 'pavbeach',
-    clientId: 'c2974fae9cfa40cbbe4828774574bdc1'
-  });
-});
-</script>
--->
-<script type="text/javascript">
-    var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'awesome',
-        clientId: 'c2974fae9cfa40cbbe4828774574bdc1'
-    });
-    feed.run();
-</script>
 <script src="js/foundation.min.js"></script>
  <script>
       $(document).foundation();
