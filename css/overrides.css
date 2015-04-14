@@ -93,29 +93,55 @@ navigation
 header{
 	margin-top: 10px;
 }
+
+.global {
+	margin-top: 30px;
+}
 .nav-links {
 	list-style-type: none;
+	margin-bottom: 0;
+	margin-top: 15px;
 
 }
 .top-nav {
 	color: white;
 	margin-top: 10px;
-	padding: 10px;
 	background: rgba(74, 74, 74, .65);
+	height: 100%;
 	text-shadow: 2px 2px 4px rgba(0,0,0, .5);
 }
 
 .top-nav ul {
 	margin: auto 0;
 }
-.hours{
-	list-style-type: none;
-	margin: auto 20px;
+.social {
+	position: relative;
 }
-.social li {
+.social li{
 	list-style-type: none;
 	display: inline-block;
 	float: left;
+	position:absolute;
+	top: -16px;
+	color: rgba(255, 246, 151, 1);
+	 text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+}
+.facebook-icon {
+	left: -10px;
+}
+
+.insta-icon {
+	left: 70px;
+}
+
+.hours{
+	list-style-type: none;
+	margin: auto 20px;
+	text-align: center;
 }
 
 .nav-links li{
@@ -129,6 +155,7 @@ header{
 	font-size: 1rem;
 
 }
+
 /*
 slider
 ===========================================================*/
@@ -165,8 +192,21 @@ booking
 /*
 Instafeed
 =========================================================================/*/
-.instafeed{
+
+.instagram {
 	background: rgba(208, 0, 26, .6);
+	text-align: center;
+
+
+
+}
+.instagram-image {
+	display: inline-block;
+	margin: 0 10px 10px 10px;
+	border-radius: 8px;
+	border: white 3px solid;
+	float: left;
+	text-align: center;
 }
 
 
@@ -191,20 +231,39 @@ media queries
 =========================================================================/*/
 
 
-@media only screen and (max-width: 970px) and (min-width: 740px) {
+@media only screen and (max-width: 970px) and (min-width: 810px) {
 	.nav-links li {
 		font-size: 80%;
 
 	
 	}
+
 }
-@media only screen and (min-width: 640px) and (max-width: 780px){
+
+@media only screen and (max-width: 810px) {
+	.global {
+		clear: both;
+		width:100%;
+	}
+	.logo {
+		width: 100%;
+	}
+	.nav-links{
+		margin-bottom: 0;
+		margin-top:.7rem;
+	}
+
+	
+	
+	
+}
+/*@media only screen and (min-width: 640px) and (max-width: 780px){
 	.nav-links li{
 		font-size: 70%;
 		padding-right: 10px;
 	}
 	
-}
+}*/
 
 @media only screen and (max-width: 570px) {
 	.nav-links li {
@@ -220,9 +279,8 @@ media queries
 		display: block;
 		box-shadow: 2px 2px 4px rgba(0,0,0, .5);
 	}
-	
 	.nav-links {
-		margin: .7rem;
+		margin:30px 0 20px 0;
 	}
 	.logo img {
 		margin: 10px;
