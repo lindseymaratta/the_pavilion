@@ -241,6 +241,9 @@ media queries
 }
 
 @media only screen and (max-width: 810px) {
+	body {
+		background-attachment: scroll;
+	}
 	.global {
 		clear: both;
 		width:100%;
