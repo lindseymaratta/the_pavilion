@@ -14,6 +14,7 @@
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/jquery.googlecalreader-1.1.min.js"></script>
+    <script src="js/jquery.simpleWeather.js"></script>
   </head>
   <body>
 
@@ -68,20 +69,9 @@
           <ul id="eventlist">
             
           </ul>
-
-         <!--<ul id="eventlist" class="list-group">
-          <li class="list-group-item active">
-            
-          </li>
-         </ul>
-          <!-- <h2>Event 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita mollitia excepturi laudantium, similique officia, cumque sapiente. Placeat et delectus quos, inventore non obcaecati libero, corrupti, similique soluta rem maxime voluptatibus?</p>
-          <h2>Event 2</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita mollitia excepturi laudantium, similique officia, cumque sapiente. </p>
-          <h2>Event 3</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita mollitia excepturi laudantium, similique officia, cumque sapiente. Placeat et delectus quos, inventore non obcaecati libero, corrupti</p>
-        </section>
-        -->
+          <p>
+          * Entertainment subject to change in cases of inclement weather
+          </p>
       </section>
       </div>
       <!--end Events-->
@@ -92,18 +82,7 @@
           <div class="small-12 columns">
             <section class="border weather">
             <h1>Weather</h1>
-            <div class="small-4 columns">
-            <p>A</p>
-            <p>A</p>
-            </div>
-            <div class="small-4 columns">
-            <p>B</p>
-            <p>B</p>
-            </div>
-            <div class="small-4 columns">
-            <p>C</p>
-            <p>C</p>
-            </div>
+            <div id="weather"></div>
             </section>
           </div>
         </div>
@@ -147,6 +126,7 @@
 
 <script src="js/foundation.min.js"></script>
 <script src="js/google_calendar.js"></script>
+ <script src="js/weather.js"></script>
 <script src="js/instagram.js"></script>
 <script src="js/instagram-feed.js"></script>
  <script>

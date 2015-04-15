@@ -13,7 +13,7 @@ $('#eventlist').gCalReader({
   errorMsg: 'No events in calendar',
 
   // maximum events
-  maxEvents: 3,
+  maxEvents: 4,
 
   // future-events filter
   futureEventsOnly: true,
