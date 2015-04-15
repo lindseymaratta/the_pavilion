@@ -19,6 +19,6 @@ $('#eventlist').gCalReader({
   futureEventsOnly: true,
 
   // descending sort order
-  sortDescending: true
+  sortDescending: false
 
 });

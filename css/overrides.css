@@ -48,7 +48,7 @@ p {
 }
 
 .nav-links {
-	font-family: Oswald, helvetica, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
 	color: #E72024;
@@ -171,6 +171,24 @@ upcoming
 
 .upcoming {
 	background: rgba(255, 246, 151, .7);
+}
+.upcoming ul {
+	list-style-type: none;
+	line-height: 1.5;
+}
+.upcoming li{
+	margin: 10px 0;
+}
+.eventtitle {
+	font-size: 1.5rem;
+}
+.eventdate {
+	font-style: italic;
+
+
+}
+.description {
+
 }
 
 /*
