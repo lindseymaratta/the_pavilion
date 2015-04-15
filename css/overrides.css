@@ -122,7 +122,7 @@ header{
 	display: inline-block;
 	float: left;
 	position:absolute;
-	top: -16px;
+	top: -13px;
 	color: rgba(255, 246, 151, 1);
 	 text-shadow:
    -2px -2px 0 #000,  
@@ -142,12 +142,15 @@ header{
 	list-style-type: none;
 	margin: auto 20px;
 	text-align: center;
+	padding: 3px 0;
+	font-weight: 400;
 }
 
 .nav-links li{
 	display:inline-block;
 	font-size: 105%;
-	padding-right: 2rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
 
 }
 
@@ -264,11 +267,11 @@ weather
   margin: 0px auto;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: black;
 }
 
 #weather i {
-  color: #fff;
+  color: #000;
   font-family: weather;
   font-size: 90px;
   font-weight: normal;
@@ -279,7 +282,7 @@ weather
 }
 #weather h2 {
   margin: 0;
-  color: #fff;
+  color: #000;
   font-size: 60px;
   font-weight: 300;
   text-align: center;
@@ -338,7 +341,7 @@ Instafeed
 	margin: 5px;
 	margin-bottom:15px;
 	border-radius: 8px;
-	border: white 3px solid;
+	border: black 3px solid;
 	float: left;
 }
 
@@ -367,8 +370,6 @@ media queries
 @media only screen and (max-width: 970px) and (min-width: 810px) {
 	.nav-links li {
 		font-size: 80%;
-
-	
 	}
 
 }
@@ -429,6 +430,9 @@ media queries
 	.logo img {
 		margin: 10px;
 	}
+	.hours li{
+		font-size: .9rem;
 
+	}
+	
 }
-
