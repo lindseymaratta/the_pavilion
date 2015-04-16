@@ -7,7 +7,7 @@ $('#eventlist').gCalReader({
   apiKey:'AIzaSyAVhU0GdCZQidylxz7whIln82rWtZ4cIDQ',
 
   // <a href="http://www.jqueryscript.net/time-clock/">date</a> format
-  dateFormat: 'LongDate',
+  dateFormat: 'LongDate+ShortTime',
 
   // error message
   errorMsg: 'No events in calendar',
