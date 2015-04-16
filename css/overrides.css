@@ -332,8 +332,13 @@ Instafeed
 	background: rgba(208, 0, 26, .6);
 }
 .instagram{
-	margin: 0 auto;
-	width: 90%;
+	text-align: center;
+	height: 180px;
+
+}
+
+.instagram-placeholder {
+	display: inline-block;
 
 }
 .instagram-image {
@@ -433,6 +438,9 @@ media queries
 	.hours li{
 		font-size: .9rem;
 
+	}
+	.instagram {
+		height: 100%;
 	}
 	
 }
