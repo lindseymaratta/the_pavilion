@@ -186,19 +186,36 @@ upcoming
 .upcoming li{
 	margin: 10px 0;
 }
+
 .eventtitle {
-	font-size: 1.5rem;
+	font-weight: 300;
+	font-size: 30px;
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
 .eventdate {
-	font-style: italic;
 
+	margin-top: -5px;
 
 }
 .description {
-
+	margin-top: 5px;
 }
 
 
+ /*	button {
+
+ 	background: rgba(255,255,255, 0);
+ 	border: 2px solid black;
+ 	text-transform: uppercase;
+ 	width:300px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding-top:20px;
+ 	padding-bottom: 15px;
+ 	font-family: helvetica, sans-serif;
+ 	font-size: 30px;
+
+ }
 
 /*
 weather
@@ -280,6 +297,7 @@ weather
   margin-right: 10px;
 
 }
+
 #weather h2 {
   margin: 0;
   color: #000;
@@ -413,6 +431,7 @@ media queries
 		#weather i {
 			font-size: 68px;
 		}
+
 }
 @media only screen and (max-width: 570px) {
 	.nav-links li {
