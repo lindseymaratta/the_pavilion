@@ -162,9 +162,43 @@ header{
 /*
 slider
 ===========================================================*/
-.slider {
+.slider-container {
 background: rgba(208, 0, 26, .6);
 
+}
+
+.slider-text {
+	width:100%;
+	bottom: 0;
+	position: absolute;
+	background:rgba(208, 0, 26, .25);
+	color: white;
+	text-shadow: 2px 2px 4px rgba(0,0,0, .5);
+
+}
+
+.slider-text h1 {
+	font-size: 3rem;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.slider-text p {
+	font-size: 30px;
+	line-height: 1;
+	font-weight: 300;
+	width: 70%;
+	margin-left: 20px;
+}
+.slider {
+	height: 500px;
+}
+
+.slider img {
+	border-radius: 10px 10px 0 0;
+	position: fixed;
+	bottom: 0;
 }
 
 
@@ -394,7 +428,19 @@ media queries
 	.nav-links li {
 		font-size: 80%;
 	}
+}
 
+@media only screen and (max-width:970px){
+	.slider-text h1{
+		font-size: 2rem;
+	}
+	.slider-text p{
+		font-size: 20px;
+		width: 90%;
+	}
+	.slider {
+		height:400px;
+	}
 }
 
 @media only screen and (max-width: 810px) {
@@ -412,11 +458,15 @@ media queries
 		margin-bottom: 0;
 		margin-top:.7rem;
 	}
-
-	
-	
 	
 }
+@media only screen and (max-width: 640px) {
+
+	.carousel {
+			display: none;
+		}
+}
+
 /*@media only screen and (min-width: 640px) and (max-width: 780px){
 	.nav-links li{
 		font-size: 70%;
@@ -431,6 +481,7 @@ media queries
 		#weather i {
 			font-size: 68px;
 		}
+		
 
 }
 @media only screen and (max-width: 570px) {
@@ -461,5 +512,11 @@ media queries
 	.instagram {
 		height: 100%;
 	}
+
+}
+	@media only screen and (max-width: 760px){
+.slider {
+	height:300px;
+}
 	
 }

@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/overrides.css" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-
+<!-- Important Owl stylesheet -->
+<link rel="stylesheet" href="js/owl-carousel/owl.carousel.css" />
+ 
+<!-- Default Theme -->
+<link rel="stylesheet" href="js/owl-carousel/owl.theme.css" />
 <!--scripts-->
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
@@ -46,21 +50,40 @@
       </nav>
     </header>
   <!--End header-->
+<!--Start body-->
 
   <!--Start slider-->
-    <section class="row">
-      <div class="small-12 columns">
-        <div class="border slider">
-          <h1>Slider goes here</h1>
-          <h2>some text</h2>
-          <p>some text></p>
+   <section class="row">
+      <div class="small-12 columns carousel">
+        <div class="border slider-container owl-carousel" id="owl-example">
+          <div class="slider">
+            <img src="img/palms.jpg">
+            <div class="slider-text">
+              <h1>Open May 16th</h1>
+              <p>Summer is finally over! Come celebrate at our Grand Opening party</p>
+            </div>
+          </div>
+          <div class="slider">
+            <img src="img/sunset.jpg">
+            <div class="slider-text">
+              <h1>Complimentary Moorings</h1>
+              <p>The perfect ending to a day on Long Island Sound is a visit to the Pavilion. At your service all summer long with free moorings and water taxi!</p>
+            </div>
+          </div>
+          <div class="slider">
+            <img src="img/sand.jpg">
+            <div class="slider-text">
+              <h1>Industry Mondays</h1>
+              <p>Join us every Monday, rain or shine, for Jamie and the Junk Show and service people's day off!</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
   <!--End slider-->
 
 
-  <!--Start body-->
+  
   <!--Start events-->
     <div class="row">
       <div class="small-12 medium-8 columns">
@@ -126,12 +149,17 @@
   <!--End footer-->  
 
 <script src="js/foundation.min.js"></script>
+<script src="js/owl-carousel/owl.carousel.js"></script>
 <script src="js/google_calendar.js"></script>
  <script src="js/weather.js"></script>
 <script src="js/instagram.js"></script>
 <script src="js/instagram-feed.js"></script>
- <script>
-  $(document).foundation();
+ <script> 
+      $(document).ready(function() {
+        $("#owl-example").owlCarousel();
+        $(document).foundation();
+      });
+   </script>
 </script>  
   </body>
 </html>
