@@ -17,15 +17,13 @@
 <!--scripts-->
     <script src="js/vendor/modernizr.js"></script>
     <script src="js/vendor/jquery.js"></script>
-    <script src="js/jquery.googlecalreader-1.1.min.js"></script>
-    <script src="js/jquery.simpleWeather.js"></script>
   </head>
   <body>
 
   <!--Start header-->
     <header class="row">
       <div class="small-12 medium-5 columns logo">
-        <a href="index.html"><img src="img/pavilion_logo.png"></a>
+        <a href="index.html"><img src="img/pavilion_logo.png" alt="pavilion logo" /></a>
       </div>
       <nav class="small-12 medium-7 columns global">
         <div class="row top-nav">
@@ -49,23 +47,17 @@
         </div>
       </nav>
     </header>
-  <!--End header-->
-  <!--Start events-->
-    <div class="row">
+    <!--End Header-->
+      <div class="row">
       <div class="small-12 columns">
-        <section class="border upcoming">
-         <h1>Upcoming Events</h1>
-          <ul id="eventlist">
-            
-          </ul>
-        
-          <p>
-          * Entertainment subject to change in cases of inclement weather
-          </p>
-      </section>
+        <section class="border food">
+          <h1>Food</h1>
+          <p>The Pavilion snack bar has all your summer day favorites.</p>
+          <img src="img/menu.jpg" alt="pavilion menu" class="border" />
+        </section>
       </div>
-      </div>
-      <!--end Events-->
+    </div>
+
       <!--Start footer-->
 
     <footer class="foot">
@@ -77,9 +69,8 @@
     </footer>
 
   <!--End footer-->  
-
-<script src="js/foundation.min.js"></script>
-<script src="js/full_google_calendar.js"></script>
+  <!--End header-->
+  <script src="js/foundation.min.js"></script>
  <script> 
       $(document).ready(function() {
         $("#owl-example").owlCarousel();
