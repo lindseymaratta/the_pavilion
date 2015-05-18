@@ -48,7 +48,7 @@ p {
 	padding:10px;
 }
 
-.nav-links a{
+.nav-links a, .nav-links-small a{
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 	text-align: center;
@@ -101,7 +101,7 @@ header{
 .global {
 	margin-top: 30px;
 }
-.nav-links {
+.nav-links, .nav-links-small {
 	list-style-type: none;
 	margin-bottom: 0;
 	margin-top: 15px;
@@ -381,6 +381,42 @@ booking
 	background: rgba(28, 117, 5, .6);
 }
 
+
+/*
+find us
+=========================================================================/*/
+
+.button {
+	display: block;
+	font-weight: 500;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+	color: black;
+	margin: 10px auto;
+	border-radius: 8px;
+	border: 3px black solid;
+	background: rgba(255,255,255, .3);
+}
+.smaller {
+	width:50%;
+}
+.contact {
+	margin: 0 auto;
+}
+.contact li{
+	list-style-type: none;
+	margin: 10px auto;
+
+}
+iframe {
+	margin:20px auto;
+	min-height: 300px;
+}
+
+.button:hover {
+	color:black;
+}
 /*
 food
 =========================================================================/*/
@@ -439,7 +475,7 @@ media queries
 
 
 @media only screen and (max-width: 970px) and (min-width: 810px) {
-	.nav-links li {
+	.nav-links li, .nav-links-small li {
 		font-size: 80%;
 	}
 }
@@ -464,6 +500,7 @@ media queries
 	.global {
 		clear: both;
 		width:100%;
+		margin-bottom: 30px;
 	}
 	.logo {
 		width: 100%;
@@ -488,6 +525,23 @@ media queries
 	}
 	
 }*/
+
+@media (max-width: 640px){
+	.nav-links{
+		display:none;
+	}
+	.nav-links-small{
+		display:block;
+	}
+}
+@media (min-width: 640px){
+	.nav-links{
+		display:block;
+	}
+	.nav-links-small{
+		display:none;
+	}
+}
 @media only screen and (max-width: 760px) and (min-width: 640px) {
 	#weather h2{
 			font-size: 45px;
@@ -498,8 +552,8 @@ media queries
 		
 
 }
-@media only screen and (max-width: 570px) {
-	.nav-links li {
+@media only screen and (max-width: 640px) {
+	.nav-links-small li {
 		font-size: 90%;
 		padding: 5px;
 		border: black 4px solid;
@@ -513,7 +567,7 @@ media queries
 		box-shadow: 2px 2px 4px rgba(0,0,0, .5);
 	}
 
-	.nav-links {
+	.nav-links-small {
 		margin:30px 0 20px 0;
 	}
 	.logo img {
