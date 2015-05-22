@@ -205,7 +205,12 @@ background: rgba(208, 0, 26, .6);
 	position: fixed;
 	bottom: 0;
 }
-
+.within-slider {
+width: 20%;
+position:fixed;
+right:5%;
+z-index: 0;
+}
 
 /*
 upcoming
@@ -497,7 +502,7 @@ media queries
 	}
 	.slider-text p{
 		font-size: 20px;
-		width: 90%;
+	
 	}
 	.slider {
 		height:400px;
