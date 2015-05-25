@@ -1,3 +1,4 @@
-.ie-hide {
+
+.ie-hide, .carousel {
 	display:none;
 }
