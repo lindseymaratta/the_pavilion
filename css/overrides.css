@@ -169,7 +169,6 @@ slider
 ===========================================================*/
 .slider-container, .food {
 background: rgba(208, 0, 26, .6);
-position:relative;
 
 }
 
@@ -204,7 +203,6 @@ position:relative;
 
 .slider img {
 	border-radius: 10px 10px 0 0;
-	position: absolute;
 	bottom: 0;
 }
 .within-slider {
