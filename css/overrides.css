@@ -175,7 +175,7 @@ background: rgba(208, 0, 26, .6);
 .slider-text {
 	width:100%;
 	bottom: 0;
-	position: absolute;
+	position: fixed;
 	background:rgba(208, 0, 26, .25);
 	color: white;
 	text-shadow: 2px 2px 4px rgba(0,0,0, .5);
@@ -198,6 +198,7 @@ background: rgba(208, 0, 26, .6);
 }
 .slider {
 	height: 500px;
+	position:relative;
 }
 
 .slider img {
