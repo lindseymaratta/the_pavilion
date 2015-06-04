@@ -169,13 +169,14 @@ slider
 ===========================================================*/
 .slider-container, .food {
 background: rgba(208, 0, 26, .6);
+position:relative;
 
 }
 
 .slider-text {
 	width:100%;
 	bottom: 0;
-	position: fixed;
+	position: absolute;
 	background:rgba(208, 0, 26, .25);
 	color: white;
 	text-shadow: 2px 2px 4px rgba(0,0,0, .5);
@@ -203,12 +204,12 @@ background: rgba(208, 0, 26, .6);
 
 .slider img {
 	border-radius: 10px 10px 0 0;
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 }
 .within-slider {
 width: 20%;
-position:fixed;
+position:absolute;
 right:5%;
 z-index: 0;
 }
