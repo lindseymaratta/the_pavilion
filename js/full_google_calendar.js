@@ -15,8 +15,7 @@ $('#eventlist').gCalReader({
   // maximum events
   maxEvents: 100,
 
-  // future-events filter
-  futureEventsOnly: true,
+
 
   // descending sort order
   sortDescending: false
