@@ -129,7 +129,12 @@ header{
 	position:absolute;
 	top: -13px;
 	color: rgba(255, 246, 151, 1);
-	 text-shadow:
+	 
+}
+
+.social li > a {
+	color: rgba(255, 246, 151, 1);
+	text-shadow:
    -2px -2px 0 #000,  
     2px -2px 0 #000,
     -2px 2px 0 #000,
